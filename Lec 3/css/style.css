@@ -1,0 +1,21 @@
+body{
+    background-color: plum;
+    margin: 0;
+    padding: 0;
+}
+.chat-screen .date{
+    text-align: center;
+    
+}
+.chat-screen .text{
+    background-color: gray;
+    width: 400px;
+    height: 150px;
+}
+.chat-screen .text h4{
+    font-size: 30px;
+    color: black;
+}
+.chat-screen .text p{
+    font-size: 30px;
+}
