@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Jaro 9pt';
+    src: url('/Fonts/font-1/Jaro9pt-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro9pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaro';
+    src: url('/Fonts/font-1/Jaro-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaro';
+    src: url('/Fonts/font-1/Jaro-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaro 24pt';
+    src: url('/Fonts/font-1/Jaro24pt-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaro 36pt';
+    src: url('/Fonts/font-1/Jaro36pt-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro36pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaro 60pt';
+    src: url('/Fonts/font-1/Jaro60pt-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro60pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jaro';
+    src: url('/Fonts/font-1/Jaro-Regular.woff2') format('woff2'),
+        url('/Fonts/font-1/Jaro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

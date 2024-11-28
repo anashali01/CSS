@@ -1,0 +1,38 @@
+/* O N L I N E 2 - fontfamily */
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Protest+Revolution&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.para-1{
+    /* Default font-family */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: darkcyan;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    /* O N L I N E - Font-family */
+    font-family: "Jaro", sans-serif;
+}
+.para-2{
+    text-decoration: underline;
+    color: palevioletred;
+    font-size: 30px;
+    font-style: italic;
+    text-indent: 200px;
+    font-family: "Protest Revolution", sans-serif;
+}
+.para-3{
+    font-size: 20px;
+    color: chartreuse;
+    /* O F F L I N E - fontfamily */
+    font-family: 'Jaro';
+}
