@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.border{
+    background-image: url('../assets/images/border.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+.fill{
+    background-image: url('../assets/images/fill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    margin: 0 auto;
+}
