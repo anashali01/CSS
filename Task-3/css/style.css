@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto; 
+}
+.chess-box{
+    margin: 30px auto;
+   width: 750px;
+   text-align: center;
+}
+.black{
+    background-color: #000000;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.white{
+    background-color: whitesmoke;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
