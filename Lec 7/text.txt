@@ -1,0 +1,3 @@
+Selector :- Class , Id , Tag , Space Selector (Div p) , > (Div > p) , First Letter , First Line , First Child , Last Child , Nth Child , Nth-last-child , Selection...
+
+Total types == 13
