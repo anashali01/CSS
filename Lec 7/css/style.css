@@ -25,10 +25,12 @@
     border-radius: 30px;
 }
 
+
 /* !F  I  R  S  T  _  C  H  I  L  D     (S E L E C T O R) */
 .cart:first-child{
     background-color: teal;
 }
+
 
 /* !L  A   S  T  _  C  H  I  L  D     (S E L E C T O R) */
 .cart:last-child{
@@ -52,3 +54,7 @@
     background-color: black;
     width: 300px;
 }
+
+
+
+
