@@ -97,5 +97,41 @@
     transform: skewY(20deg);
 }
 
+.cart:nth-child(9):hover{
+    background-color: navy;
+    color: whitesmoke;
+}
+.cart:nth-child(9):hover img{
+    transform: skew(20deg);
+}
+
+.cart:nth-child(10):hover{
+    background-color: rgb(50, 219, 224);
+    color: whitesmoke;
+}
+.cart:nth-child(10):hover img{
+    transform: rotateX(120deg);
+}
+
+.cart:nth-child(11):hover{
+    background-color: rgb(176, 5, 79);
+    color: whitesmoke;
+}
+.cart:nth-child(11):hover img{
+    transform: rotateY(120deg);
+}
+
+.cart:nth-child(12):hover{
+    background-color: rgb(176, 5, 79);
+    color: whitesmoke;
+}
+.cart:nth-child(12):hover img{
+    transform: rotate(120deg);
+}
+
+
+
+
+
 
 
