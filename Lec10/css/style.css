@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background-color: #A7D477;
+    border: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+button:first-child::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: -200px;
+    top: 0;
+    background-color: #F72C5B;
+    transform: translateX(200px);
+    width: 0%;
+    height: 100%;
+    transition: 0.9s;
+    z-index: -1;
+}
+button:hover:first-child::after{
+    width: 100%;
+}
+
+
+button:nth-child(2)::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-color: #F72C5B;
+    transform: translateY(-1px);
+    width: 100%;
+    height: 0%;
+    transition: 0.9s;
+    z-index: -1;
+}
+button:hover:nth-child(2)::after{
+    height: 100%;
+}
+
+button:nth-child(3)::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-color: #F72C5B;
+    transform: translate(200px 100px);
+    width: 0%;
+    height: 0%;
+    transition: 0.9s;
+    z-index: -1;
+}
+button:hover:nth-child(3)::after{
+    height: 100%;
+    width: 100% ;
+}
+
+button:nth-child(4)::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-color: #F72C5B;
+    transform: translate(200px);
+    width: 0%;
+    height: 0%;
+    transition: 0.9s;
+    z-index: -1;
+}
+button:hover:nth-child(4)::after{
+    height: 100%;
+    width: 100%;
+}
+
+button:nth-child(5)::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: -200px;
+    top: 0px;
+    background-color: #F72C5B;
+    transform: skewX(180deg);
+    width: 0%;
+    height: 100%;
+    transition: 0.9s;
+    z-index: -1;
+}
+button:hover:nth-child(5)::after{
+    width: 100%;
+    left: 100px;
+}
+
